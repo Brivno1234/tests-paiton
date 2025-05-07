@@ -74,3 +74,8 @@ for line in lines[1:]:
     print("Time:", now, "Name:", process_name, "Memory:", memory_usage)
 
 
+if int(input("sisesta number")) == 1:
+    checkconection()
+else:
+    taskScaner()
+        print()
